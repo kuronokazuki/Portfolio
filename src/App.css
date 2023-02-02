@@ -1,0 +1,575 @@
+/*文字*/
+h4{
+  margin-bottom: 6px;
+  margin-top:0px;
+}
+
+p{
+  margin:0px;
+}
+
+/*画面構成*/
+body{
+  display: flex;
+  flex-flow:column;
+  height:100%;
+
+}
+
+main{
+  width:100%;
+}
+
+.english{
+  font-family: "ubuntu";
+  letter-spacing: 0.05em;
+  margin-left: 3px;
+}
+
+.button{
+  width: 249px;
+  height: 57px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#button_text{
+  font-size:20px;
+  font-family: "ubuntu";
+}
+
+/*ロード画面*/
+#topLoading{
+  width:100%;
+  height:100%;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+}
+
+/*ハンバーガーメニュー*/
+/*header size*/
+header{
+  height: 80px;
+  width: 100%;
+}
+
+header .Top{
+  height: 80px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #005b99;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  overflow: 0;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  padding-bottom: 1em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*TopImage of menu*/
+.Top_img {
+  height: 59px;
+  width: 59px;
+  display: block;
+  margin: auto;
+}
+
+/*main画面*/
+/*Top画面*/
+#Top{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 782px;
+  background-color: black;
+}
+
+#circle{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 126px;
+  width: 282px;
+  height:282px;
+  border-radius: 50%;
+  border: solid 10px white;
+}
+
+#Black_name{
+  width: 153.12px;
+  height: 147.89px;
+}
+
+#name{
+  color: white;
+  font-size: 25px;
+  font-family: AB-tegami;
+  margin-top:23px;
+}
+
+#Top_portfolio{
+  color: #FF0092;
+  font-size: 50px;
+  font-family: "ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:133px;
+}
+
+#under{
+  margin-top:66.1px;
+}
+
+/*About画面*/
+#About{
+  position: relative;
+  top: 52px;
+  margin:0 auto;
+  width:327px;
+  height:678px;
+  background-color: black;
+  border-radius: 23px;
+}
+
+#About_circle{
+  position: relative;
+  top:51px;
+  margin:0 auto;
+  background-color: white;
+  width:188px;
+  height:189px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#About_Topimg{
+    width:111px;
+    height:111px;
+}
+
+#About_thissite{
+  position: relative;
+  font-size: 30px;
+  color: #FF0092;
+  font-family: "ubuntu", sans-serif;
+  left: 67px;
+  width: auto;
+  top:2px;
+  letter-spacing: 0.05em;
+  line-height: 1.33;
+}
+
+#self{
+  position: relative;
+  color: white;
+  margin-top: 41px;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  font-family: "ubuntu",senobi-gothic, sans-serif;
+  left:39px;
+}
+
+#self_introduction{
+  position:relative;
+  color:white;
+  font-size: 12px;
+  letter-spacing: -0.05em;
+  font-family: "ubuntu",senobi-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  left: 39px;
+  line-height: 2.5;
+  margin-top: 41px;
+  bottom: 27px;
+}
+
+/*Aboutme*/
+#About_me{
+  position: relative;
+  top: 104px;
+  width:327px;
+  height:662px;
+  background-color: black;
+}
+
+#sikaku{
+  position:absolute;
+  background-color: white;
+  width:339px;
+  height:200px;
+  left:91px;
+  top:44px;
+}
+
+#About_me_span{
+  position: relative;
+  top:9px;
+  left:15px;
+  font-size: 50px;
+  color: #FF0092;
+  font-family: "ubuntu", sans-serif;
+  width: auto;
+  top:2px;
+  letter-spacing: 0.05em;
+  line-height: 1.33;
+  z-index: 1;
+}
+
+#self_career{
+  position:absolute;
+  font-size: 12px;
+  letter-spacing: -0.05em;
+  font-family: "ubuntu",senobi-gothic, sans-serif;
+  color:white;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.5;
+  top:305px;
+  left: 50%;
+  width: 249px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+#skilllevel{
+  position:absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#portfolio_span{
+  position: absolute;
+  top:9px;
+  left:15px;
+  font-size: 50px;
+  color: #FF0092;
+  font-family: "ubuntu", sans-serif;
+  width: auto;
+  top:2px;
+  letter-spacing: 0.05em;
+  line-height: 1.33;
+  z-index: 1;
+}
+
+/*Portfolio*/
+#portfolio{
+  position:absolute;
+  top:2357px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.portfolio_span{
+  position: absolute;
+  z-index: 1;
+  top:365px;
+  left:28px;
+  font-family: "ubuntu", sans-serif;
+}
+
+#span_2{
+  top:658px;
+}
+
+#span_3{
+  top:951px;
+}
+
+/*オーバーレイ*/
+#overlay{
+  /*　画面全体を覆う設定　*/
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+  
+    /*　画面の中央に要素を表示させる設定　*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*モーダルウインドウ*/
+  #content{
+    z-index:2;
+    width:339px;
+    height:761px;
+    padding: 1em;
+    background:#fff;
+  }
+
+  /*モーダルボタン*/
+  #modal_button{
+    position:absolute;
+    top:300px;
+    width:200px;
+    top:200px;
+    z-index: 3;
+  }
+
+  /*モーダル画像*/
+  .portfolioImg{
+    width: 339px;
+  }
+
+  /*モーダル文字*/
+  #description{
+    height:118px;
+  }
+
+  #tec{
+    height:82px;
+  }
+
+  #concept{
+    height:82px;
+  }
+
+  #url{
+    height:68px;
+  }
+
+  h3{
+    font-size: 25px;
+    margin-top:18px;
+  }
+
+  /*画面幅が480px以上の時*/
+  @media screen and (min-width:480px){
+
+    #About{
+      width: 600px;
+      text-align: center;
+    }
+
+    #self{
+      left:0px;
+    }
+
+    #self_introduction{
+      left:0px;
+    }
+
+    #About_thissite{
+      left:0px;
+    }
+
+    #About_me{
+      width: 700px;
+    }
+
+    #sikaku{
+      position:relative;
+      top:15px;
+      left:0px;
+      margin: 0 auto;
+    }
+
+    #self_career{
+      text-align: center;
+    }
+
+    .portfolio_span{
+      top: 560px;
+      left:60px;
+      font-size: 30px;
+    }
+
+    #span_2{
+      top:1060px;
+    }
+
+    #span_3{
+      top:1560px;
+    }
+  }
+
+  /*画面幅が1200px以上の時*/
+  @media screen and (min-width:1200px){
+    #About{
+      width: 1100px;
+      text-align: left;
+    }
+
+    #About_circle{
+      width: 400px;
+      height: 400px;
+      margin-left: 50px;
+      top: 80px;
+    }
+
+    #About_Topimg{
+      width: 280px;
+      height: 280px;
+    }
+
+    #About_thissite{
+      position: absolute;
+      font-size: 70px;
+      top: 540px;
+      left:50px;
+    }
+
+    #self{
+      position:absolute;
+      font-size: 60px;
+      left: auto;
+      margin: 0px;
+      right: 50px;
+      top: 80px;
+      width: 400px;
+    }
+
+    #self_introduction{
+      position:absolute;
+      font-size: 16px;
+      right: 130px;
+      top: 250px;
+      left: auto;
+      width: 320px;
+    }
+
+    .button{
+      position: absolute;
+      right: 100px;
+      top: 560px;
+      width: 350px;
+    }
+
+    #About_me{
+      width: 1000px;
+    }
+
+    #About_me_span{
+      left: 100px;
+      top: 50px;
+      font-size: 70px;
+    }
+
+    #sikaku{
+      position: absolute;
+      width: 551px;
+      height: 319px;
+      top: 50px;
+      right: -100px;
+      margin: 0px;
+      left: auto;
+    }
+
+    #self_career{
+      position: absolute;
+      text-align: left;
+      font-size: 16px;
+      width: 350px;
+      left: 275px;
+      top: 190px;
+    }
+
+    #skilllevel{
+      left: 275px;
+      margin: 0px;
+    }
+
+    #portfolio_span{
+      font-size: 70px;
+    }
+
+    .portfolio_span{
+      top: 850px;
+      left:60px;
+      font-size: 40px;
+    }
+
+    #span_2{
+      top:1630px;
+    }
+
+    #span_3{
+      top:2440px;
+    }
+
+  }
+
+
+
