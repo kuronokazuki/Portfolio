@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ee70b8ec.css",
+    "main.js": "./static/js/main.8e05f7d5.js",
+    "static/media/ReservationSite.png": "./static/media/ReservationSite.1089306b6c80866bb1e1.png",
+    "static/media/shinkeisuizyaku.png": "./static/media/shinkeisuizyaku.bf7a9ab9d09b40c95a42.png",
+    "static/media/PortfolioSite.png": "./static/media/PortfolioSite.d081e622216064f63e9e.png",
+    "static/media/Top.png": "./static/media/Top.339ac040ee5f176d3ee0.png",
+    "index.html": "./index.html",
+    "main.ee70b8ec.css.map": "./static/css/main.ee70b8ec.css.map",
+    "main.8e05f7d5.js.map": "./static/js/main.8e05f7d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee70b8ec.css",
+    "static/js/main.8e05f7d5.js"
+  ]
+}
