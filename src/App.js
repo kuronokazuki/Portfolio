@@ -51,7 +51,7 @@ function Modal({show, setShow}){
 
 function App() {
 
-  //ポートフォリオ画像のホバー
+  //ポートフォリオ画像のホバー(ここだけstyled-componentsを使用してみました)
   const [color, setColor] = useState("100%");
 
   const PortfolioImg = styled.img`
@@ -92,7 +92,7 @@ function App() {
     img: Portfolio,
     tec: 'HTML5、CSS3、javascript、React、git、Adobe Xd、Adobe Ilustrator',
     consept: 'このウェブサイトを見た人に私の名前を覚えてもらい、ポートフォリオの印象を強く持ってもらうこと',
-    github: 'URL',
+    github: 'https://github.com/kuronokazuki/Portfolio',
     Xd: 'https://xd.adobe.com/view/af4aae0e-a54c-4d22-9094-d428719533fa-fa19/'
   }
 
@@ -101,9 +101,9 @@ function App() {
     title: 'Shinkeisuijaku',
     description: 'javascriptの練習で作りました。制作を通して、DOMを使用したHTML要素の操作についてなんとなく理解出来ました。',
     img: Shinkeisuizyaku,
-    tec: 'HTML5、CSS3、javascript、React、Adobe Photoshop',
-    consept: 'みた人に私の名前を覚えてもらい、ポートフォリオの印象を強く持ってもらうこと',
-    github: 'URL',
+    tec: 'HTML5、CSS3、javascript、Adobe Photoshop',
+    consept: '',
+    github: 'https://github.com/kuronokazuki/shinkeisuizyaku',
     site: 'https://direct-preview-63bf5a02e78885a751cf0f39.monaca.education'
   }
 
@@ -112,7 +112,7 @@ function App() {
     title: 'ReservationSite',
     description: 'ハッカソンの課題でチームで制作しました。私は主にデザインとHTML、CSSを担当しました。',
     img: Reservation,
-    tec: 'HTML5、CSS3、javascript、React、Adobe Photoshop',
+    tec: 'HTML5、CSS3、PHP、Adobe Photoshop、Adobe Xd',
     consept: '若者にも受け入れられる予約サイトにする',
     github: 'URL',
     site: 'http://ws-hackathon2022-teams03.pencilsystems.site/show_items.php',
@@ -157,7 +157,7 @@ function App() {
           日々更新していきますので<br/>
           是非見ていってください。<br/>
         </div>
-        <div className="button"><div id="button_text">Portforio</div></div>
+        <a href='#portfolio'><div className="button"><div id="button_text">Portforio</div></div></a>
       </div>
 
       <div id="About_me">
@@ -171,12 +171,15 @@ function App() {
           現在は学校で情報技術について勉強しながら、<br/>
           学外ではWeb制作やReactについても学習中。<br/>
         </div>
+        {/*時間がないため保留
         <div className="button" id="skilllevel"><div id="button_text">Skill Level</div></div>
+        */
+        }
       </div>
 
       <div id="portfolio">
         <span id="portfolio_span">Portfolio</span>
-        <PortfolioImg src={Portfolio} onClick={() => setShow(Portfoliosite)}  onMouseEnter={() => setColor("80%")} onMouseLeave={() => setColor("100%")}></PortfolioImg>
+        <PortfolioImg src={Portfolio} onClick={() => setShow(Portfoliosite)} onMouseEnter={() => setColor("80%")} onMouseLeave={() => setColor("100%")}></PortfolioImg>
         <span className="portfolio_span" id="span_1">Portfolio Site</span>
         <PortfolioImg src={Shinkeisuizyaku} onClick={() => setShow(Shinkeisuijaku)} onMouseEnter={() => setColor("80%")} onMouseLeave={() => setColor("100%")}></PortfolioImg>
         <span className="portfolio_span" id="span_2">Shinkeisuijaku</span>
